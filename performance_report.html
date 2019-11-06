@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+<title> Performance Report </title>
+</head>
+<body>
+<h1 style="text-align:center;font-size:50px;background:dodgerblue; color:lightgray"> Online Class Test Management System </h1>
+<ul id="l02">
+  <li><a href="main.html">Home</a></li>
+  <li><a href="#notice">Notice</a></li>
+  <li><a href="#login">Login</a></li>
+  <li><a href="#register">Register</a></li>
+  <li><a href="#about_us">About Us</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+    <table align="center" cellpadding="5px">
+        <caption> Performance <span style="color:green;"> Report </span> </caption>
+        <tr>
+            <th> Name </th>
+            <th> CT 1 </th>
+            <th> CT 2 </th>
+            <th> CT 3 </th>
+            <th> Best one </th>
+            <th> Best of two </th>
+            <th> Average </th>
+        </tr>
+        <tr>
+            <td> Md Amir Hamza Robel </td>
+            <td> 9 </td>
+            <td> 7 </td>
+            <td> 10 </td>
+            <td> 20 </td>
+            <td> 19 </td>
+            <td> 17 </td>
+        </tr>
+        <tr>
+            <td> Md Asadullah Galib </td>
+            <td> 9 </td>
+            <td> 7 </td>
+            <td> 10 </td>
+            <td> 20 </td>
+            <td> 19 </td>
+            <td> 17 </td>
+        </tr><tr>
+            <td> Md Abdul Aowal Bijoy </td>
+            <td> 9 </td>
+            <td> 7 </td>
+            <td> 10 </td>
+            <td> 20 </td>
+            <td> 19 </td>
+            <td> 17 </td>
+        </tr><tr>
+            <td> Md Lokman Hossain </td>
+            <td> 9 </td>
+            <td> 7 </td>
+            <td> 10 </td>
+            <td> 20 </td>
+            <td> 19 </td>
+            <td> 17 </td>
+        </tr>
+    </table>
+<h2 id="myHeader">Hello World!</h2>
+<button onclick="displayResult()">Change text</button>
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+<button onclick="alert('Are you sure to leave!')" type="button"> <a href="main.html"> HOME </a> </button>
+<meter value="0.6"> </meter>
+<svg width="250" height="100">
+  <rect width="250" height="100" fill="green"/>
+  <circle cx="100" cy="50" r="40" stroke="green" stroke-width="4" fill="red" />
+</svg>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World",10,50);
+</script>
+<a href="http://www.facebook.com/BirHamza.BD"> <img src="reg now.jpg" alt="register now" width="5%" height="5%" title="Click here to register!"> </a>
+</body>
+</html>

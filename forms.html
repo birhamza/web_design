@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Forms </title>
+</head>
+<body>
+<h1> Registration Form </h1>
+<form action="main.html" target="_self" method="get">
+    <fieldset>
+        <legend> Personal Information</legend>
+    Your Name: <br/>
+    <input type="text" name="Your Name" value="Bir Hamza"> <br/>
+    Age: <br/>
+    <input type="number" name="your age" value="27"> <br/><br/>
+    Select Gender: <br/>
+        <select name="gender">
+            <option value="male"> Male </option>
+            <option value="female"> Female </option>
+            <option value="other"> Other </option>
+        </select> <br/>
+     Tell me something about yourself:<br/>
+        <textarea name="message" rows="10" cols="15">
+            Assalamu Alaikum, Present our honourable head, teachers and all the audience, Thank your for being here today!
+            This is Amir Hamza Robel, Today i'm going to give a presentation on "online class test management system"
+        </textarea> <br/>
+     Game You Like:<br/>
+        <select name="fav_game" multiple>
+            <option value="badminton"> Badminton </option>
+            <option value="cricket"> Cricket </option>
+            <option value="football"> Football </option>
+            <option value="wresling"> Wresling </option>
+            <option value="kabadi"> Kabadi</option>
+            <option value="karate" selected> Karete </option>
+        </select>
+    <br/>
+    </fieldset>
+    <fieldset>
+        <legend> Official Information </legend>
+    Company Name: <br/>
+    <input type="text" name="company" required> <br/>
+    Joining Date: <br/>
+    <input type="date" name="joining" value="19/05/2013"> <br/><br/>
+    Position: <br/>
+    <input type="text" name="position" value="Lab Assistant" required> <br/>
+    <br/>
+    </fieldset>
+    <fieldset>
+        <legend> All input types </legend>
+    Button: <br/>
+    <input type="button" value="Ok"> <br/>
+
+        Profession you like: <br/>
+    <input type="checkbox" name="solider"> I like solider <br/>
+    <input type="checkbox" name="muslim"> I like muslim <br/>
+        color: <br/>
+    <input type="color"> <br/>
+        Date: <br/>
+    <input type="date" min="1993-12-21" ><br/>
+        datetime-local: <br/>
+    <input type="datetime-local"><br/>
+        Email: <br/>
+    <input type="email" name="mail"><br/>
+        File: <br/>
+    <input type="file"><br/>
+        Hidden: <br/>
+    <input type="hidden"><br/>
+        Image: <br/>
+    <input type="image"><br/>
+        Month: <br/>
+    <input type="month"><br/>
+        Number: <br/>
+    <input type="number" min="1" max="100" step="4"><br/>
+        Password: <br/>
+    <input type="password" min="8"><br/>
+        Radio: <br/>
+    <input type="radio"><br/>
+        Range: <br/>
+    <input type="range"><br/>
+        Search:<br/>
+    <input type="search"><br/>
+        Submit: <br/>
+    <input type="tel"><br/>
+        Text: <br/>
+    <input type="text" maxlength="20"><br/>
+        Time: <br/>
+    <input type="time"><br/>
+        Url: <br/>
+    <input type="url"><br/>
+        Week: <br/>
+    <input type="week"><br/>
+    </fieldset> <br/>
+<input type="reset">
+<input type="submit" onclick="alert('Congratulation! You are registered now!')" value="Submit"> <br/><br/>
+</form>
+</body>
+</html>

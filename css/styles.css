@@ -1,0 +1,70 @@
+body {
+ background-color:#8e8799;
+}
+a:link, a:visited {
+  background-color:#696969;
+  padding: 15px 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+table, th, td {
+border: 1px solid blue;
+border-collapse: collapse;
+background-color: LightSkyBlue;
+}
+table th {
+background-color:stellblue;
+color: white;
+}
+table td {
+background-color: #eee;
+}
+ul#l01 {
+list-style-type:square;
+background-color: steelblue;
+color:white;
+}
+
+ul#l02 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position:fixed;
+}
+
+ul#l02 li {
+  float: left;
+}
+
+ul#l02 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  font-family: Trebuchet Ms;
+}
+
+ul#l02 li a:hover {
+  background-color: #b8c4d1;
+  color:green;
+}
+.cities {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+}
+h2#secret {
+background-color:lightblue;
+color: green;
+
+}
+
