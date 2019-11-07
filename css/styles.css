@@ -36,7 +36,7 @@ ul#l02 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position:fixed;
+  position:absolute;
 }
 
 ul#l02 li {
