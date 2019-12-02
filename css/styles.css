@@ -19,16 +19,18 @@ border-collapse: collapse;
 background-color: LightSkyBlue;
 }
 table th {
-background-color:stellblue;
+background-color:steellblue;
 color: white;
 }
 table td {
 background-color: #eee;
 }
 ul#l01 {
-list-style-type:square;
-background-color: steelblue;
-color:white;
+list-style-type:circle;
+border-style: inset;
+border-width: 2px 5px 2px 10px;
+border-color: #b29700;
+border-radius: 5px;
 }
 
 ul#l02 {
@@ -47,14 +49,18 @@ ul#l02 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 16px;
   text-decoration: none;
   font-family: Trebuchet Ms;
+  border-style:inset;
+  border-width: 1px;
+  border-color: #8e8799;
+
 }
 
 ul#l02 li a:hover {
-  background-color: #b8c4d1;
-  color:green;
+  background-color: #b29700;
+
 }
 .cities {
   background-color: black;
@@ -66,5 +72,8 @@ h2#secret {
 background-color:lightblue;
 color: green;
 
+}]
+* {
+font-family: Trebuchet MS;
 }
 
