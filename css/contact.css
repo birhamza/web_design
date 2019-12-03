@@ -4,3 +4,16 @@ body {
 h1 {
 text-decoration:center;
 }
+div {
+    width: 336px;
+    height: 192px;
+    border-style: dashed;
+    border-width: medium;
+    border-color: maroon;
+    background-color: #b29700;
+    text-align: center;
+    color: green;
+    margin: 10px 38%;
+    line-height: 3px;
+}
+

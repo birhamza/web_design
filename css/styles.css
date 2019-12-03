@@ -68,11 +68,17 @@ ul#l02 li a:hover {
   margin: 20px;
   padding: 10px;
 }
+.sub {
+    Padding: 20px;
+    border-style: outset;
+    border-color: maroon;
+    border-width: 50px;
+}
 h2#secret {
 background-color:lightblue;
 color: green;
 
-}]
+}
 * {
 font-family: Trebuchet MS;
 }
