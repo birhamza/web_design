@@ -9,24 +9,11 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
 a:hover, a:active {
-  background-color: red;
-}
-table, th, td {
-border: 1px solid blue;
-border-collapse: collapse;
-background-color: LightSkyBlue;
-}
-table th {
-background-color:steellblue;
-color: white;
-}
-table td {
-background-color: #eee;
+background-color: #b29700;
 }
 ul#l01 {
-list-style-type:circle;
+list-style-type: square;
 border-style: inset;
 border-width: 2px 5px 2px 10px;
 border-color: #b29700;
@@ -58,9 +45,9 @@ ul#l02 li a {
 
 }
 
-ul#l02 li a:hover {
+ul#l02 li a:hover{
   background-color: #b29700;
-
+  font-size: 18px;
 }
 .cities {
   background-color: black;
@@ -83,3 +70,27 @@ color: green;
 font-family: Trebuchet MS;
 }
 
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+#customers tr:nth-child(even){background-color: lightgray;}
+
+#customers tr:hover {background-color: lightgreen;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: DodgerBlue;
+  color: white;
+  border-style:double;
+  border-width: 5px;
+}
