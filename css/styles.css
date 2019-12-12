@@ -1,13 +1,15 @@
 body {
  background-color:#8e8799;
 }
+img.cover_img {
+height:100%; width:100%; title: annual picnic; display:block;
+                }
 a:link, a:visited {
   background-color:#696969;
   padding: 15px 4px;
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
 }
 a:hover, a:active {
 background-color: #b29700;
@@ -30,6 +32,7 @@ ul#l02 {
 
 ul#l02 li {
   float: left;
+  display: inline;
 }
 
 ul#l02 li a {
@@ -50,7 +53,7 @@ ul#l02 li a:hover{
   font-size: 18px;
 }
 .cities {
-  background-color: black;
+  background-color: gray;
   color: white;
   margin: 20px;
   padding: 10px;
@@ -73,24 +76,26 @@ font-family: Trebuchet MS;
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  max-width:1066px;
+  margin:auto;
 }
 
 #customers td, #customers th {
-  border: 1px solid #ddd;
+  border: 1px solid #b29700;
   padding: 5px;
+  vertical-align: middle;
+  background-color: black;
+  color: #b29700;
 }
-
-#customers tr:nth-child(even){background-color: lightgray;}
 
 #customers tr:hover {background-color: lightgreen;}
 
 #customers th {
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: left;
-  background-color: DodgerBlue;
+  text-align: center;
+  background-color: #b29700;
   color: white;
-  border-style:double;
-  border-width: 5px;
+  border: 2px solid black;
 }
+

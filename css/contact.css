@@ -7,13 +7,13 @@ text-decoration:center;
 div {
     width: 336px;
     height: 192px;
-    border-style: dashed;
-    border-width: medium;
-    border-color: maroon;
-    background-color: #b29700;
+    border-style: solid outset solid inset;
+    border-width: 2px 5px 2px 5px;
+    border-color: DodgerBlue;
     text-align: center;
-    color: green;
-    margin: 10px 38%;
+    color: black;
+    margin: auto;
     line-height: 2px;
+    background-image: url("vc.jpg");
 }
 
